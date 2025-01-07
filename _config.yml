@@ -1,0 +1,17 @@
+title: Clean Code Tips
+description: Modern guide to writing clean, maintainable code
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - index.md
+  - principles.md
+  - about.md 

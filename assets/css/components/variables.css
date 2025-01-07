@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+    --background-color: #0d1117;
+    --text-color: #c9d1d9;
+    --link-color: #58a6ff;
+    --heading-color: #ffffff;
+    --border-color: #30363d;
+    --code-background: #161b22;
+    --nav-hover-bg: #21262d;
+    --link-hover-color: #a8d4ff;
+    --quote-border: #1a4b91;
+    --quote-background: rgba(88, 166, 255, 0.05);
+    --glass-bg: rgba(13, 17, 23, 0.8);
+    --glass-bg-hover: rgba(21, 28, 36, 0.95);
+    --button-bg: rgba(255, 255, 255, 0.05);
+    --button-hover-bg: rgba(255, 255, 255, 0.1);
+    --button-text: #c9d1d9;
+    --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    --accent-gradient: linear-gradient(135deg, #58a6ff 0%, #7ee787 100%);
+    --scrollbar-thumb: #30363d;
+    --scrollbar-track: #0d1117;
+}

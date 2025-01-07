@@ -1,0 +1,100 @@
+/* Quote styles */
+blockquote {
+    margin: 2rem 0;
+    padding: 2.5rem 2rem 2rem;
+    background: var(--glass-bg);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    position: relative;
+}
+
+blockquote::before {
+    content: '"';
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    font-size: 3.5rem;
+    line-height: 1;
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-style: italic;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.3;
+}
+
+blockquote p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-style: italic;
+    color: var(--text-color);
+    line-height: 1.6;
+    padding-left: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 1rem;
+    padding-left: 2.5rem;
+    font-size: 1rem;
+    font-family: 'Crimson Pro', Georgia, serif;
+    color: var(--text-color);
+    opacity: 0.8;
+    font-style: normal;
+    font-weight: 600;
+}
+
+blockquote cite::before {
+    content: "— ";
+    font-style: italic;
+}
+
+/* Featured quote */
+blockquote.featured {
+    margin: 3rem 0;
+    padding: 3rem;
+    text-align: center;
+    background: var(--glass-bg);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--card-shadow);
+}
+
+blockquote.featured::before {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1.5rem;
+    font-size: 4rem;
+    opacity: 0.25;
+}
+
+blockquote.featured p {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 0;
+    padding-left: 0;
+    line-height: 1.5;
+}
+
+blockquote.featured cite {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    padding-left: 0;
+}
+
+@media (max-width: 768px) {
+    blockquote.featured {
+        margin: 2rem 0;
+        padding: 2.5rem 2rem;
+    }
+
+    blockquote.featured p {
+        font-size: 1.3rem;
+    }
+}
