@@ -38,6 +38,33 @@
     margin-bottom: 0;
 }
 
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.post-content ul,
+.post-content ol {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.post-content li {
+    margin-bottom: 1rem;
+}
+
+.post-content li>ul,
+.post-content li>ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Post list */
 .post-list {
     list-style: none;
@@ -64,15 +91,4 @@
 
 .post-list h3 {
     margin: 0 0 1rem 0;
-}
-
-/* Content lists */
-.post-content ul,
-.post-content ol {
-    margin-bottom: 1.5rem;
-    padding-left: 1.5rem;
-}
-
-.post-content li {
-    margin-bottom: 0.5rem;
 }
