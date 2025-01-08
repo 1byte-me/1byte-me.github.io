@@ -26,7 +26,6 @@ We believe in the power of community-driven knowledge. This project thrives on c
 
 1. Explore our [GitHub repository](https://github.com/1byte-me/1byte-me.github.io)
 2. Share your insights through issues or pull requests
-3. Follow our contribution guidelines to maintain quality and consistency
 
 ## Essential Resources
 
