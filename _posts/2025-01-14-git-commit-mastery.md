@@ -80,8 +80,6 @@ This developer understood something crucial: documentation isn't just about code
 4. **The "Nobody Reads These Anyway" Myth**
    Until that crucial moment when everybody needs to read them.
 
-[Continue with existing technical sections, but with more personality...]
-
 ## The Commit Message Hall of Fame
 
 ### The Good
